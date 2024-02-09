@@ -2,16 +2,9 @@ html {
     background-color: black;
 }
 
-p {
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-   
-}
-
 div {
     text-align: center;
-    margin: 10px;
+    margin: 5px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
@@ -23,4 +16,13 @@ div#container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+span {
+    color: aqua;
+    display: block;
+}
+
+button {
+    padding: 8px;
 }
